@@ -1,0 +1,24 @@
+{
+  "name": "lunowse",
+  "version": "0.1.0",
+  "description": "Fluneって何？",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mf-3d/Lunowse.git"
+  },
+  "keywords": [],
+  "author": "mf7cli <mf7cli120@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mf-3d/Lunowse/issues"
+  },
+  "homepage": "https://github.com/Mf-3d/Lunowse#readme",
+  "dependencies": {
+    "electron": "^18.1.0"
+  }
+}
