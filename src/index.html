@@ -21,11 +21,32 @@
                 background: #efefef;
                 font-family: 'Noto Sans JP', sans-serif;
             }
+
+            a {
+                text-decoration: none;
+                color: #4b4b4b;
+            }
         </style>
+        <script>
+            function close() {
+                window.lunowse_api.close();
+            }
+
+            function maxmin_win() {
+                window.lunowse_api.maxMin();
+            }
+
+            function hide_win() {
+                window.lunowse_api.hideWin();
+            }
+        </script>
     </head>
     <body>
-        <input type="text" style="-webkit-app-region: no-drag;"/> <div style="display: inline-block; _display: inline; user-select: none; -webkit-app-region: no-drag;">
-            ー □ ×
+        <input type="text" style="-webkit-app-region: no-drag;"/> 
+        <div style="display: inline-block; _display: inline; user-select: none; -webkit-app-region: no-drag;">
+            <a href="javascript:hide_win()">ー</a> 
+            <a href="javascript:maxmin_win()">□</a> 
+            <a href="javascript:close()">×</a>
         </div>
     </body>
 </html>
